@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.imagens{
+    display: flex;
+    justify-content: space-around;
+    background-color: #274549;
+    margin-top: 0;
+}
+.iphone{
+    border: 5px solid white;
+    max-width: 180px;
+    background-color: #274549;
+    padding-top: 10px;
+}
+.iphone p{
+    color: white;
+}
+.iphone:hover{
+    border: 2px solid white;
+    text-decoration: underline;
+}
+img{
+    max-width: 180px;
+    height: 180px;
+    cursor: pointer;
+    color: white;
+    background-color: #274549;
+}
+.card-group{
+    display: flex;
+    justify-content: space-around;
+    background-color: #274549;
+}
+.card{
+    border: 1px solid;
+    max-width: 400px;
+}
+h1{
+    color: white;
+    background-color: #274549;
+    margin: 0!important;
+}
